@@ -1,4 +1,9 @@
 # Plexxis Interview Exercise
+
+## To start application
+To start application, please run command: node server/seed.js
+
+
 ## Requirements
 Create a simple but __impressive__ (looks good, works well, has intuitive design, etc.) CRUD application that can do the following:
 
