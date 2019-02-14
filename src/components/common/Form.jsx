@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Joi from "joi";
-import Input from "./Iput";
+import Input from "./Input";
 import Select from "./Select";
 import Radio from "./Radio";
 
