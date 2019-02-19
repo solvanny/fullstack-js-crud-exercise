@@ -51,7 +51,7 @@ class EmployeerForm extends Form {
     assigned: Joi.bool().label("Assigned")
   };
 
-  //Get employeer by ID fro data base
+  //Get employeer by ID from data base
   componentDidMount = async () => {
     let employeeId = this.props.match.params.id;
     if (!employeeId) return;
@@ -99,8 +99,8 @@ class EmployeerForm extends Form {
       assigned: Boolean(assigned)
     };
 
-    //If ID, Update the exists emplyeer
-    //Else, Save new employeer
+    //If ID, Update the exists employeer
+    //Else, Save new the employeer
     if (id) {
       await fetch(`http://localhost:8080/api/employees/${id}`, {
         method: "put",
