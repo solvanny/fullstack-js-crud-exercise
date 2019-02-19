@@ -1,5 +1,17 @@
 # Plexxis Interview Exercise
 
+![fullstack-js-crud-exercise-1](https://user-images.githubusercontent.com/34585907/52981308-ed4abb00-33ac-11e9-9279-34f0d8c4d5ea.gif)
+
+1. On back-end I used Bookshelf for database SQLite3 and Express.js for REST API
+
+2. On front-end I used the validation package Joi ,I used fetch to get data from an API
+
+3. On front-end I used the component library – Bootstrap. For vector icons I used Font Awesome.
+
+4. In this version I built the pagination on server-side (this approach is useful for the application with a large amount of information).
+
+- To start application, please run command: node server/seed.js
+
 ## To start application
 To start application, please run command: node server/seed.js
 
